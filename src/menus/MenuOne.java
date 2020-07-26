@@ -9,10 +9,10 @@ import center.chain.Clothing_chain;
 import center.chain.Fast_food_chain;
 import center.chain.Food_chain;
 import employee.Employee;
-import employee_type.Cashier;
-import employee_type.Junior;
-import employee_type.Manager;
-import employee_type.Senior;
+import employee.employee_type.Cashier;
+import employee.employee_type.Junior;
+import employee.employee_type.Manager;
+import employee.employee_type.Senior;
 
 public abstract class MenuOne extends Menu {
 

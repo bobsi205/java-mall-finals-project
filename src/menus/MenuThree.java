@@ -5,10 +5,10 @@ import java.util.Scanner;
 import center.Chain;
 import center.Store;
 import employee.Employee;
-import employee_type.Cashier;
-import employee_type.Manager;
-import employee_type.Senior;
-import employee_type.Junior;
+import employee.employee_type.Cashier;
+import employee.employee_type.Junior;
+import employee.employee_type.Manager;
+import employee.employee_type.Senior;
 
 public abstract class MenuThree extends Menu {
 

@@ -1,4 +1,4 @@
-package employee_type;
+package employee.employee_type;
 
 public class Manager extends Junior {
 	private int rank;
