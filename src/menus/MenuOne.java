@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 import center.Chain;
 import center.Store;
-import chain.Book_chain;
-import chain.Clothing_chain;
-import chain.Fast_food_chain;
-import chain.Food_chain;
+import center.chain.Book_chain;
+import center.chain.Clothing_chain;
+import center.chain.Fast_food_chain;
+import center.chain.Food_chain;
 import employee.Employee;
 import employee_type.Cashier;
 import employee_type.Junior;

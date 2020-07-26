@@ -1,4 +1,4 @@
-package chain;
+package center.chain;
 
 public class Fast_food_chain extends Food_chain {
     private double bmPrice;
