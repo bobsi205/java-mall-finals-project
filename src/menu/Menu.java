@@ -2,35 +2,7 @@ package menu;
 
 import java.util.Scanner;
 
-import center.Chain;
-
 public abstract class Menu {
-
-	public static Chain[] addChainToArray(Chain[] chains, Chain newChain) {
-		Chain[] tempChains = null;
-		if (chains != null) {
-			int i = 0, j = 0;
-			Boolean flag = false;
-			tempChains = new Chain[chains.length + 1];
-			for (; i < chains.length; i++) {
-				if (flag || chains[j].getName().compareToIgnoreCase(newChain.getName()) <= 0) {
-					tempChains[i] = chains[j++];
-				} else {
-					tempChains[i] = newChain;
-					flag = true;
-				}
-			}
-			if (flag) {
-				tempChains[i] = chains[j];
-			} else {
-				tempChains[i] = newChain;
-			}
-		} else {
-			tempChains = new Chain[1];
-			tempChains[0] = newChain;
-		}
-		return tempChains;
-	}
 
 	public static java.lang.Double scanDouble(String type, String name, Scanner sc) {
 		double input;
