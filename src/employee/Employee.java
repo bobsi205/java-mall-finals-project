@@ -15,10 +15,6 @@ public abstract class Employee {
 		this.baseSalary = baseSalary;
 	}
 
-	public long getID() {
-		return this.ID;
-	}
-
 	public static String printAllEmployeeID(Employee[] arr) {
 		if (arr == null) {
 			return ", No emplpyees ";
@@ -38,12 +34,8 @@ public abstract class Employee {
 				+ ", Employee appointmentPercentage=" + appointmentPercentage + "%]";
 	}
 
-	public double getbaseSalary() {
-		return baseSalary;
-	}
-
-	public void setbaseSalary(double baseSalary) {
-		this.baseSalary = baseSalary;
+	public long getID() {
+		return this.ID;
 	}
 
 }

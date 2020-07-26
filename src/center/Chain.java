@@ -159,10 +159,6 @@ public abstract class Chain {
 		return name;
 	}
 
-	public Employee[] getEmployees() {
-		return employees;
-	}
-
 	public Store[] getStores() {
 		return stores;
 	}

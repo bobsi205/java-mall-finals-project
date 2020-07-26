@@ -27,10 +27,6 @@ public class Senior extends Junior {
 		return sal;
 	}
 
-	public double[] getCancelled_transactions() {
-		return cancelled_transactions;
-	}
-
 	public void addCancledTransaction(double value) {
 		int i = 0;
 		double[] tempCT = null;
@@ -52,4 +48,7 @@ public class Senior extends Junior {
 		return super.toString() + "Senior [cancelled_transactions=" + Arrays.toString(cancelled_transactions) + "]";
 	}
 
+	public double[] getCancelled_transactions() {
+		return cancelled_transactions;
+	}
 }

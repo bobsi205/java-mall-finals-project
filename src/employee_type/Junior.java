@@ -12,10 +12,6 @@ public class Junior extends Employee {
 		this.transactions = null;
 	}
 
-	public double[] getTransactions() {
-		return transactions;
-	}
-
 	public void addTransaction(double value) {
 		double[] tempTransactions = null;
 
