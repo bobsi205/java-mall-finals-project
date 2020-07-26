@@ -1,13 +1,13 @@
-package employee.employee_type;
+package employee.employee_types;
 
 import java.util.Arrays;
 
 public class Senior extends Junior {
-	private double[] cancelled_transactions;
+	private double[] cancelledTransactions;
 
 	public Senior(long employee_id, String first_name, double appointment_percentage, double base_salary) {
 		super(employee_id, first_name, appointment_percentage, base_salary);
-		this.cancelled_transactions = null;
+		this.cancelledTransactions = null;
 	}
 
 	@Override
@@ -30,25 +30,25 @@ public class Senior extends Junior {
 	public void addCancledTransaction(double value) {
 		int i = 0;
 		double[] tempCT = null;
-		if (cancelled_transactions == null) {
+		if (cancelledTransactions == null) {
 			tempCT = new double[1];
 			tempCT[0] = value;
 		} else {
-			tempCT = new double[this.cancelled_transactions.length + 1];
-			for (; i < this.cancelled_transactions.length; i++) {
-				tempCT[i] = this.cancelled_transactions[i];
+			tempCT = new double[this.cancelledTransactions.length + 1];
+			for (; i < this.cancelledTransactions.length; i++) {
+				tempCT[i] = this.cancelledTransactions[i];
 			}
 			tempCT[i] = value;
 		}
-		this.cancelled_transactions = tempCT;
+		this.cancelledTransactions = tempCT;
 	}
 
 	@Override
 	public String toString() {
-		return super.toString() + "Senior [cancelled_transactions=" + Arrays.toString(cancelled_transactions) + "]";
+		return super.toString() + "Senior [cancelled_transactions=" + Arrays.toString(cancelledTransactions) + "]";
 	}
 
 	public double[] getCancelled_transactions() {
-		return cancelled_transactions;
+		return cancelledTransactions;
 	}
 }

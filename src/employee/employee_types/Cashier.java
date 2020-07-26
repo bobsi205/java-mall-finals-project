@@ -1,4 +1,4 @@
-package employee.employee_type;
+package employee.employee_types;
 
 import employee.Employee;
 

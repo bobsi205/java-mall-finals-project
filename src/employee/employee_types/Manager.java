@@ -1,4 +1,4 @@
-package employee.employee_type;
+package employee.employee_types;
 
 public class Manager extends Junior {
 	private int rank;
@@ -7,12 +7,6 @@ public class Manager extends Junior {
 		super(employee_id, first_name, appointment_percentage, base_salary);
 		this.transactions = null;
 		this.rank = 1;
-	}
-
-	public Manager(long employee_id, String first_name, double appointment_percentage, double base_salary, int rank) {
-		super(employee_id, first_name, appointment_percentage, base_salary);
-		this.transactions = null;
-		this.rank = rank;
 	}
 
 	@Override

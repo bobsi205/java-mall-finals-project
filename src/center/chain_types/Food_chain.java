@@ -1,4 +1,4 @@
-package center.chain;
+package center.chain_types;
 
 import center.Chain;
 
