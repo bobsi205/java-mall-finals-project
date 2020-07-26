@@ -1,0 +1,70 @@
+Date : 2020-07-24 16:06:16
+Directory : c:\Users\SHALOM\final_project\final_project
+Total : 34 files,  2159 codes, 119 comments, 351 blanks, all 2629 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |         34 |      2,159 |        119 |        351 |      2,629 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                           |         34 |      2,159 |        119 |        351 |      2,629 |
+| bin                                                                         |         17 |        616 |          0 |         47 |        663 |
+| bin\center                                                                  |          3 |        129 |          0 |          2 |        131 |
+| bin\chain                                                                   |          4 |         54 |          0 |          0 |         54 |
+| bin\employee                                                                |          1 |         28 |          0 |          0 |         28 |
+| bin\employee_type                                                           |          4 |         85 |          0 |          1 |         86 |
+| bin\menus                                                                   |          4 |        300 |          0 |         43 |        343 |
+| src                                                                         |         17 |      1,543 |        119 |        304 |      1,966 |
+| src\center                                                                  |          3 |        393 |          9 |         63 |        465 |
+| src\chain                                                                   |          4 |         53 |          0 |         23 |         76 |
+| src\employee                                                                |          1 |         40 |          0 |         10 |         50 |
+| src\employee_type                                                           |          4 |        138 |          0 |         36 |        174 |
+| src\menus                                                                   |          4 |        766 |        102 |        157 |      1,025 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                    | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\SHALOM\final_project\final_project\bin\Main.class                  | Java     |         20 |          0 |          1 |         21 |
+| c:\Users\SHALOM\final_project\final_project\bin\center\Chain.class          | Java     |         50 |          0 |          2 |         52 |
+| c:\Users\SHALOM\final_project\final_project\bin\center\Mall.class           | Java     |         38 |          0 |          0 |         38 |
+| c:\Users\SHALOM\final_project\final_project\bin\center\Store.class          | Java     |         41 |          0 |          0 |         41 |
+| c:\Users\SHALOM\final_project\final_project\bin\chain\Book_chain.class      | Java     |         14 |          0 |          0 |         14 |
+| c:\Users\SHALOM\final_project\final_project\bin\chain\Clothing_chain.class  | Java     |         13 |          0 |          0 |         13 |
+| c:\Users\SHALOM\final_project\final_project\bin\chain\Fast_food_chain.class | Java     |         13 |          0 |          0 |         13 |
+| c:\Users\SHALOM\final_project\final_project\bin\chain\Food_chain.class      | Java     |         14 |          0 |          0 |         14 |
+| c:\Users\SHALOM\final_project\final_project\bin\employee\Employee.class     | Java     |         28 |          0 |          0 |         28 |
+| c:\Users\SHALOM\final_project\final_project\bin\employee_type\Cashier.class | Java     |         18 |          0 |          0 |         18 |
+| c:\Users\SHALOM\final_project\final_project\bin\employee_type\Junior.class  | Java     |         27 |          0 |          0 |         27 |
+| c:\Users\SHALOM\final_project\final_project\bin\employee_type\Manager.class | Java     |         19 |          0 |          0 |         19 |
+| c:\Users\SHALOM\final_project\final_project\bin\employee_type\Senior.class  | Java     |         21 |          0 |          1 |         22 |
+| c:\Users\SHALOM\final_project\final_project\bin\menus\Menu.class            | Java     |         49 |          0 |         10 |         59 |
+| c:\Users\SHALOM\final_project\final_project\bin\menus\MenuOne.class         | Java     |        104 |          0 |          9 |        113 |
+| c:\Users\SHALOM\final_project\final_project\bin\menus\MenuThree.class       | Java     |         72 |          0 |         16 |         88 |
+| c:\Users\SHALOM\final_project\final_project\bin\menus\MenuTwo.class         | Java     |         75 |          0 |          8 |         83 |
+| c:\Users\SHALOM\final_project\final_project\src\Main.java                   | Java     |        153 |          8 |         15 |        176 |
+| c:\Users\SHALOM\final_project\final_project\src\center\Chain.java           | Java     |        140 |          3 |         24 |        167 |
+| c:\Users\SHALOM\final_project\final_project\src\center\Mall.java            | Java     |         90 |          0 |         14 |        104 |
+| c:\Users\SHALOM\final_project\final_project\src\center\Store.java           | Java     |        163 |          6 |         25 |        194 |
+| c:\Users\SHALOM\final_project\final_project\src\chain\Book_chain.java       | Java     |         13 |          0 |          6 |         19 |
+| c:\Users\SHALOM\final_project\final_project\src\chain\Clothing_chain.java   | Java     |         13 |          0 |          6 |         19 |
+| c:\Users\SHALOM\final_project\final_project\src\chain\Fast_food_chain.java  | Java     |         14 |          0 |          5 |         19 |
+| c:\Users\SHALOM\final_project\final_project\src\chain\Food_chain.java       | Java     |         13 |          0 |          6 |         19 |
+| c:\Users\SHALOM\final_project\final_project\src\employee\Employee.java      | Java     |         40 |          0 |         10 |         50 |
+| c:\Users\SHALOM\final_project\final_project\src\employee_type\Cashier.java  | Java     |         21 |          0 |          8 |         29 |
+| c:\Users\SHALOM\final_project\final_project\src\employee_type\Junior.java   | Java     |         47 |          0 |         12 |         59 |
+| c:\Users\SHALOM\final_project\final_project\src\employee_type\Manager.java  | Java     |         23 |          0 |          7 |         30 |
+| c:\Users\SHALOM\final_project\final_project\src\employee_type\Senior.java   | Java     |         47 |          0 |          9 |         56 |
+| c:\Users\SHALOM\final_project\final_project\src\menus\Menu.java             | Java     |         85 |          0 |         17 |        102 |
+| c:\Users\SHALOM\final_project\final_project\src\menus\MenuOne.java          | Java     |        247 |         36 |         45 |        328 |
+| c:\Users\SHALOM\final_project\final_project\src\menus\MenuThree.java        | Java     |        265 |         38 |         60 |        363 |
+| c:\Users\SHALOM\final_project\final_project\src\menus\MenuTwo.java          | Java     |        169 |         28 |         35 |        232 |
+| Total                                                                       |          |      2,159 |        119 |        351 |      2,629 |
++-----------------------------------------------------------------------------+----------+------------+------------+------------+------------+
