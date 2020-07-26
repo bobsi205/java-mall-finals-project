@@ -46,6 +46,10 @@ public class Mall {
 
     public void removeStore(Store s) {
         int i = 0, j = 0;
+        if (this.stores.length == 1) {
+            this.stores = null;
+            return;
+        }
         Store[] tempStores = new Store[this.stores.length - 1];
         for (; i < this.stores.length; i++) {
             if (this.stores[i] != s) {

@@ -126,6 +126,10 @@ public class Store {
     // removes employee from store employees arr
     public void removeEmployee(Employee e) {
         int i = 0, j = 0;
+        if (this.employees.length == 1) {
+            this.employees = null;
+            return;
+        }
         Employee[] tempEmp = new Employee[this.employees.length - 1];
         for (; i < this.employees.length; i++) {
             if (this.employees[i] != e) {
