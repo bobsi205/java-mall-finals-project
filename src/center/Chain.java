@@ -5,7 +5,7 @@ import java.util.Arrays;
 import employee.Employee;
 
 public abstract class Chain {
-	protected String name; // unique and
+	protected String name;
 	protected Employee[] employees;
 	protected Store[] stores;
 

@@ -20,8 +20,8 @@ public class Store {
         this.transactions = null;
     }
 
-    // getters
-
+    // returns the total sum of all store transactions minus the cancled
+    // transactions
     public double getSumShopping() {
         double sum = 0;
         if (this.transactions != null) {
@@ -45,6 +45,7 @@ public class Store {
         return sum;
     }
 
+    // adds given value to transaction array
     public void addTransaction(double value) {
         int i = 0;
         double[] tempTransactions;
@@ -61,21 +62,7 @@ public class Store {
         this.transactions = tempTransactions;
     }
 
-    public Boolean returningItem(double transaction_value, long employee_id) {
-        if (this.employees != null) {
-            for (Employee e : this.employees) {
-                if (e.getID() == employee_id) {
-                    if (e instanceof Senior) {
-                        Senior s = (Senior) e;
-                        s.addCancledTransaction(transaction_value);
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
-    }
-
+    // returns the total sum of salaries
     public double getSumSalaries() {
         double sum = 0;
         if (this.employees != null) {
@@ -151,18 +138,6 @@ public class Store {
             }
         }
         return null;
-    }
-
-    public static Boolean checkUniqueStoreId(Store[] stores, long id) {
-        if (stores == null) {
-            return true;
-        }
-        for (int i = 0; i < stores.length; i++) {
-            if (stores[i].ID == id) {
-                return false;
-            }
-        }
-        return true;
     }
 
     public Employee findEmployeeByID(long ID) {
