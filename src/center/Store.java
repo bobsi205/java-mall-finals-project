@@ -3,8 +3,8 @@ package center;
 import java.util.Arrays;
 
 import employee.Employee;
-import employee.employee_type.Cashier;
-import employee.employee_type.Senior;
+import employee.employee_types.Cashier;
+import employee.employee_types.Senior;
 
 public class Store {
     private long ID; // need to check unique

@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 import center.Chain;
 import center.Store;
-import center.chain.Book_chain;
-import center.chain.Clothing_chain;
-import center.chain.Fast_food_chain;
-import center.chain.Food_chain;
+import center.chain_types.Book_chain;
+import center.chain_types.Clothing_chain;
+import center.chain_types.Fast_food_chain;
+import center.chain_types.Food_chain;
 import employee.Employee;
-import employee.employee_type.Cashier;
-import employee.employee_type.Junior;
-import employee.employee_type.Manager;
-import employee.employee_type.Senior;
+import employee.employee_types.Cashier;
+import employee.employee_types.Junior;
+import employee.employee_types.Manager;
+import employee.employee_types.Senior;
 
 public abstract class MenuOne extends Menu {
 
