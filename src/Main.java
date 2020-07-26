@@ -7,10 +7,10 @@ import center.chain_types.Book_chain;
 import center.chain_types.Clothing_chain;
 import center.chain_types.Fast_food_chain;
 import center.chain_types.Food_chain;
-import menus.Menu;
-import menus.MenuOne;
-import menus.MenuThree;
-import menus.MenuTwo;
+import menu.Menu;
+import menu.menus.MenuOne;
+import menu.menus.MenuThree;
+import menu.menus.MenuTwo;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package menus;
+package menu.menus;
 
 import java.util.Scanner;
 
@@ -13,6 +13,7 @@ import employee.employee_types.Cashier;
 import employee.employee_types.Junior;
 import employee.employee_types.Manager;
 import employee.employee_types.Senior;
+import menu.Menu;
 
 public abstract class MenuOne extends Menu {
 

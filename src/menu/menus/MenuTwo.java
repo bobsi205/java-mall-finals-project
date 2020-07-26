@@ -1,10 +1,11 @@
-package menus;
+package menu.menus;
 
 import java.util.Scanner;
 
 import center.Chain;
 import center.Mall;
 import center.Store;
+import menu.Menu;
 
 public abstract class MenuTwo extends Menu {
 
